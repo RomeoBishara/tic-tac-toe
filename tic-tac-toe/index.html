@@ -1,0 +1,58 @@
+<!--  Web Programming 
+		  Author: Romeo Al Bishara
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> Tgame </title>
+	<meta charset="utf-8">
+	<link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Artifika" >
+	<link rel="stylesheet"  href="_css/style.css">
+	<!-- linked to javascript file -->
+	<script type="text/javascript" src="js/script.js"></script> 
+
+
+	 
+</head>
+<body>
+
+	<div class="game">
+           
+       <div class="results"> 
+			<div class="players"> Player1 </div>
+			<div class="scores"> 0 : 0 </div> 
+			<div class="players"> Player2 </div>
+		
+
+		</div>
+
+		<table>
+			<tr>
+				<td> <button onclick="play(0)" class="button"> </button> </td>
+				<td> <button onclick="play(1)" class="button"> </button> </td>
+				<td> <button onclick="play(2)" class="button"> </button> </td>
+			</tr>
+
+			<tr>
+				<td> <button onclick="play(3)" class="button"> </button> </td>
+				<td> <button onclick="play(4)" class="button"> </button> </td>
+				<td> <button onclick="play(5)" class="button"> </button> </td>
+			</tr>
+
+			<tr> 
+				<td> <button onclick="play(6)" class="button"> </button> </td>
+				<td> <button onclick="play(7)" class="button"> </button> </td>
+				<td> <button onclick="play(8)" class="button"> </button> </td>
+			</tr>
+			
+		</table>
+		<div>
+			<button class="control" onclick="window.location.reload();"> Reset </button>
+			<button class="control" onclick="stratGame();"> Play </button>
+		</div>
+	</div>
+		
+
+</body>
+</html>
